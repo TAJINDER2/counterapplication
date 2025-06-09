@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f7f7;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.counters-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.counter-box {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+}
+
+.counter h2 {
+  color: #34495e;
+}
+
+.count-display {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: red;
+}
+
+.btn-group button {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-group button:hover {
+  background-color: #2980b9;
+}
